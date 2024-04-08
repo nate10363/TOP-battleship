@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="log-btns-container">
+        <button class="log-boards-btn" id="log-player-board-btn">Log Player Board</button><br>
+        <button class="log-boards-btn" id="log-computer-board-btn">Log Computer Board</button>
+    </div>
+
+    <label class="vert-hor" id="horizontal-label"><input id="horizontal" type="radio" name="vertical-horizontal" value="horizontal" checked> Horizontal</label>
+    <label class="vert-hor" id="vertical-label"><input id="vertical" type="radio" name="vertical-horizontal" value="vertical"> Vertical</label>
+
+    <div id="winner-container">
+        <p id="winner-text"></p>
+    </div>
+
+    <div id="boards-container">
+        <div class="single-board" id="player-board"></div>
+        <div class="single-board" id="computer-board"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
